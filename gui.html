@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="vlogo-1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="gui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>Graphical User Interface</title>
+    <style>
+        .ccontainer {
+            position: relative;
+            min-height: 60vh;
+            background: white;
+            margin-top: 20px;
+        }
+
+        .ccontainer .cimage-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .ccontainer .cimage-container .cimage {
+            height: 250px;
+            width: 350px;
+            border: 10px solid white;
+            box-shadow: 0 5px 15px black;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .ccontainer .cimage-container .cimage img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: .2s linear;
+        }
+
+        .ccontainer .cimage-container .cimage:hover img {
+            transform: scale(1.1);
+        }
+
+        .ccontainer .cpopup-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .9);
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            display: none;
+        }
+
+        .ccontainer .cpopup-image span {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-size: 40px;
+            font-weight: bolder;
+            color: #fff;
+            cursor: pointer;
+            z-index: 100;
+        }
+
+        .ccontainer .cpopup-image img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 5px solid #fff;
+            width: 750px;
+            object-fit: cover;
+        }
+
+        @media (max-width:768px) {
+            .ccontainer .cpopup-image img {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="text-box">
+            <h1>WELCOME TO GUI DEPARTMENT</h1>
+            <p>
+
+                Turn Your Design into a code
+            </p>
+
+        </div>
+    </section>
+    <!-- what gui do? -->
+    <section class="course">
+        <h1>What we do?</h1>
+        <p>
+            The GUI is a type of User Interface that allows users to interact with
+        </p>
+        <div class="row">
+            <div class="course-col">
+
+                <p>Interect with Electronics devices<br>through Graphical Icons and Visual indicators.</p>
+            </div>
+            <div class="course-col">
+
+                <p>Direct manipulation of the graphical elements.</p>
+            </div>
+            <div class="course-col">
+
+                <p> A method used to control a Radio-Controlled vehicle from the driver or pilot’s view point,the
+                    First-Person View (FPV), also known as Remote-Person View (RPV), or simply Video Piloting.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="ccontainer">
+
+        <div class="cimage-container">
+            <div class="cimage"><img src="/img/comps (1).jpeg" alt=""></div>
+            <div class="cimage"><img src="/img/Graphical-user-interface-of-the-ground-station (1).png" alt=""></div>
+            <div class="cimage"><img src="/img/WhatsApp Image 2021-05-10 at 7.03.56 PM (1).jpeg" alt=""></div>
+        </div>
+        <div class="cpopup-image">
+            <span>&times;</span>
+            <img src="/img/photo-1517694712202-14dd9538aa97 (1).jpg" alt="">
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.cimage-container img').forEach(cimage => {
+            cimage.onclick = () => {
+                document.querySelector('.cpopup-image').style.display = 'block';
+                document.querySelector('.cpopup-image img').src = cimage.getAttribute('src');
+            }
+        });
+        document.querySelector('.cpopup-image span').onclick = () => {
+            document.querySelector('.cpopup-image').style.display = 'none';
+        }
+    </script>
+
+
+    <!-- our team -->
+
+
+    <h1 class="ot">MEET GUI MEMBERS</h1>
+    <div class="tbox-container">
+        <div class="btn from-top">Seniors</div>
+        <!-- 1 -->
+        <div class="tbox">
+            <img src="/img/Kaustubh.jpg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Kaustubh Mishra</h3>
+                <span class="tpost">TE <br>COMPUTER</span>
+                <div class="tshare">
+                    <a href="https://www.facebook.com/kaustubh.mishra.1029" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/therealkaustubhmishra/" class="fab fa-instagram"></a>
+                    <a href="https://www.github.com/mkaustubh" class="fab fa-github"></a>
+                    <a href="https://mobile.twitter.com/The_MKaustubh" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/kaustubh-mishra-016a8a1b4" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="tbox">
+            <img src="/img/PicsArt_05-07-03.38.14.jpg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Vivan Stanislaus</h3>
+                <span class="tpost">TE <br>COMPUTER</span>
+                <div class="tshare">
+                    <a href="https://www.facebook.com/vivan.stanislaus.79" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/vivan_stanislaus/" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/vivan-stanislaus-22741b1a3" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="tbox">
+            <img src="/img/GUI_AtharvaBuit.jpeg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Atharva Buit</h3>
+                <span class="tpost">TE <br>COMPUTER</span>
+                <div class="tshare">
+                    <a href="https://www.facebook.com/atharva.buit" class="fab fa-facebook-f"></a>
+                    <a href="https://instagram.com/atharvabuit?utm_medium=copy_link" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/atharva-buit-b923391a7/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="tbox-container">
+        <div class="btn from-top">Juniors</div>
+    <div class="tbox-container">
+
+        <!-- <h1 class="ot">Juniors</h1>  -->
+        <!-- 1 -->
+        <div class="tbox">
+            <img src="/img/GUI_AidenSamuel.jpg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Aiden Samuel</h3>
+                <span class="tpost">SE ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</span>
+                <div class="tshare">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="https://instagram.com/aiden_samuel?utm_medium=copy_link" class="fab fa-instagram"></a>
+                    <a href="https://twitter.com/Aidensamuel506" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/aiden-samuel-48a7b01aa/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="tbox">
+            <img src="/img/GUI_Charmi_Tank.jpg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Charmi Tank</h3>
+                <span class="tpost">SE <br>COMPUTER</span>
+                <div class="tshare">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="https://instagram.com/charmit_01?utm_medium=copy_link" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/charmi-t-b0435b204" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="tbox">
+            <img src="/img/GUI_Kunal Wagh.jpg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Kunal Wagh</h3>
+                <span class="tpost">SE ELECTRONICS AND COMPUTER SCIENCE</span>
+                <br>
+                <div class="tshare">
+                    <a href="https://www.facebook.com/kunal.wagh.9028" class="fab fa-facebook-f"></a>
+                    <a href="https://instagram.com/iamkunal.__?utm_medium=copy_link" class="fab fa-instagram"></a>
+                    <a href="https://twitter.com/waghkunal314?s=08" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/kunal-wagh-a45513208" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 1 -->
+        <div class="tbox">
+            <img src="/img/GUI_Bhushan Pakhle.jpg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Bhushan Pakhle</h3>
+                <span class="tpost">SE <br>COMPUTER</span>
+                <div class="tshare">
+                    <a href="https://www.facebook.com/dhruv.pakhle" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/bhushanpakhle/" class="fab fa-instagram"></a>
+                    <a href="https://twitter.com/BPakhle" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/bhushan-p-pakhle-a2a16821a/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="tbox">
+            <img src="/img/GUI_ShaunPimenta.jpg"
+                alt="">
+            <div class="tinfo">
+                <h3 class="ttitle">Shaun Pimenta</h3>
+                <span class="tpost">SE <br>COMPUTER</span>
+                <div class="tshare">
+                    <a href="https://www.facebook.com/shaun.pimenta/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/shaunpimenta/" class="fab fa-instagram"></a>
+                    <a href="https://twitter.com/ShaunPimenta" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/shaun-pimenta-b888ab208/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        
+
+    </div>
+
+</body>
+
+</html>

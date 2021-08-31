@@ -1,0 +1,310 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    min-height         : 100vh;
+    width              : 100%;
+    background-image   : linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('/img/photo-1517694712202-14dd9538aa97\ \(1\).jpg');
+    background-position: center;
+    background-size    : cover;
+    position           : relative;
+}
+
+.text-box {
+    width     : 90%;
+    color     : white;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    transform : translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin   : 10px 0 40px;
+    font-size: 14px;
+    color    : white;
+}
+
+@media(max-width:700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+
+}
+
+/* what gui do */
+
+.course {
+    width      : 80%;
+    margin     : auto;
+    text-align : center;
+    padding-top: 100px;
+
+}
+
+h1 {
+    font-size  : 36px;
+    font-weight: 600;
+}
+
+.row p {
+    color      : white;
+    font-size  : 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding    : 10px;
+    align-items: center;
+    text-align : center;
+}
+
+.row {
+    margin-top     : 5%;
+    justify-content: space-between;
+    display        : flex;
+}
+
+.course-col {
+    flex-basis   : 31%;
+    background   : #144B68;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding      : 20px 12px;
+    box-sizing   : border-box;
+    transition   : 0.5s;
+}
+
+h3 {
+    text-align : center;
+    font-weight: 600;
+    margin     : 10px 0;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px #144B68;
+}
+
+@media(max-width:700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float  : left;
+    width  : 33.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear  : both;
+    display: table;
+}
+
+.row {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex      : 33.33%;
+    padding   : 5px;
+    transition: 0.5s;
+}
+
+.column:hover {
+    box-shadow: 0 0 20px 0px #144B68;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 90%;
+    }
+}
+
+/* OUR TEAM */
+
+.tbox-container {
+    min-height         : 80vh;
+    background-color   : rgb(62, 151, 185);
+    background-size    : cover;
+    background-position: center;
+    display            : flex;
+    align-items        : center;
+    justify-content    : center;
+    flex-wrap          : wrap;
+    padding-bottom     : 80px;
+}
+
+.tbox-container .tbox {
+    height       : 400px;
+    width        : 280px;
+    border       : 8px solid white;
+    /* box-shadow: 0 5px 5px black; */
+    overflow     : hidden;
+    margin       : 20px 15px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.tbox-container .tbox img {
+    height    : 100%;
+    width     : 100%;
+    object-fit: cover;
+
+}
+
+.tbox-container .tbox:hover img {
+    transform: scale(1.1);
+}
+
+.tbox-container .tbox .tinfo {
+    text-align: center;
+    background: white;
+    position  : relative;
+    bottom    : 50px;
+}
+
+.tbox-container .tbox:hover .tinfo {
+    bottom: 165px;
+}
+
+.tbox-container .tbox .tinfo .ttitle {
+    padding       : 10px 0;
+    font-size     : 20px;
+    color         : #144B68;
+    text-transform: capitalize;
+}
+
+.tbox-container .tbox .tinfo .tpost {
+
+    font-size: 15px;
+    color    : black;
+
+}
+
+.tbox-container .tbox .tinfo .tshare {
+    margin-top: 10px;
+    border-top: 1px solid black;
+}
+
+.tbox-container .tbox .tinfo .tshare a {
+    font-size      : 20px;
+    margin         : 20px 10px;
+    text-decoration: none;
+    color          : #144B68;
+}
+
+.tbox-container .tbox .tinfo .tshare a:hover {
+    color: rgb(5, 5, 54);
+}
+
+.ot {
+    text-align   : center;
+    color        : #144B68;
+    margin-bottom: 20px;
+
+    /* margin-top: 10px; */
+}
+
+ .oto {
+    border       : 1px solid;
+    border-radius: 30px;
+    width        : 30%;
+    text-align   : center;
+
+    display        : flex;
+    justify-content: center;
+    color          : #144B68;
+    margin-top     : 10px;
+    margin-bottom  : 20px;
+
+
+} 
+/* .oto{
+    font-size     : 1.4rem;
+    color         : var(--inv);
+    color: white;
+    letter-spacing: 1.1rem;
+    text-transform: uppercase;
+} */
+
+.ot1 {
+    color: white;
+}
+
+/* ~~~~~~~ INIT. BTN ~~~~~~~ */
+
+.btn {
+    position      : relative;
+    padding       : 1.4rem 4.2rem;
+    padding-right : 3.1rem;
+    font-size     : 1.4rem;
+    color         : var(--inv);
+    color: white;
+    letter-spacing: 1.1rem;
+    text-transform: uppercase;
+    transition    : all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    cursor        : pointer;
+    user-select   : none;
+}
+
+.btn:before,
+.btn:after {
+    content   : '';
+    position  : absolute;
+    transition: inherit;
+    z-index   : -1;
+}
+
+.btn:hover {
+    color           : var(--def);
+    transition-delay: .5s;
+}
+
+.btn:hover:before {
+    transition-delay: 0s;
+}
+
+.btn:hover:after {
+    background      : var(--inv);
+    transition-delay: .35s;
+}
+
+/* From Top */
+
+.from-top:before,
+.from-top:after {
+    left  : 0;
+    height: 0;
+    width : 100%;
+}
+
+.from-top:before {
+    bottom       : 0;
+    border       : 1px solid var(--inv);
+    border-top   : 0;
+    border-bottom: 0;
+}
+
+.from-top:after {
+    top   : 0;
+    height: 0;
+}
+
+.from-top:hover:before,
+.from-top:hover:after {
+    height: 100%;
+}
+

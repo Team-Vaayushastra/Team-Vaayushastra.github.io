@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spons2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>spons2</title>
+    <style>
+        .ccontainer {
+            position: relative;
+            min-height: 60vh;
+            background: white;
+            margin-top: 20px;
+        }
+
+        .ccontainer .cimage-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .ccontainer .cimage-container .cimage {
+            height: 250px;
+            width: 350px;
+            border: 10px solid white;
+            box-shadow: 0 5px 15px black;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .ccontainer .cimage-container .cimage img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: .2s linear;
+        }
+
+        .ccontainer .cimage-container .cimage:hover img {
+            transform: scale(1.1);
+        }
+
+        .ccontainer .cpopup-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .9);
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            display: none;
+        }
+
+        .ccontainer .cpopup-image span {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-size: 40px;
+            font-weight: bolder;
+            color: #fff;
+            cursor: pointer;
+            z-index: 100;
+        }
+
+        .ccontainer .cpopup-image img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 5px solid #fff;
+            width: 750px;
+            object-fit: cover;
+        }
+
+        @media (max-width:768px) {
+            .ccontainer .cpopup-image img {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header" >
+        <div class="text-box">
+            <h1>MEDIA AND MARKETING</h1>
+            <!-- <p>
+
+                Turn Your Design into a code
+            </p> -->
+
+        </div>
+    </section>
+    <!-- what gui do? -->
+    <section class="course">
+        <h1>What we do?</h1>
+        <!-- <p>
+            The GUI is a type of User Interface that allows users to interact with
+        </p> -->
+        <div class="row">
+            <div class="course-col">
+
+                <p>This is one of the major departments of the team. Marketing refers to the process an organization undertakes to engage its target audience, build strong relationships to create value in order to capture value in return. </p>
+            </div>
+            <div class="course-col">
+
+                <p>This department ensure that all the team accounts are in place and that money is being spent correctly.Social media are interactive technologies that allow the creation or sharing/exchange of information, ideas, career interests, and other forms of expression via virtual communities and networks. So our team makes an equal efforts to communicate with people through such platforms.</p>
+            </div>
+            <div class="course-col">
+
+                <p>We also get in touch with potential investors, who would be interested in funding our endeavours. We also make sure all the documents for the competition like registration, design report, customs and travelling happen smoothly and without any issue.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- our team -->
+    
+
+   <h1 class="ot">MEET MEDIA AND MARKETING MEMBERS</h1>
+   <div class="tbox-container">
+       <div class="btn from-top">Seniors</div>
+       <!-- 1 -->
+       <div class="tbox">
+        <img src="/img/Spons_Noela.jpg"
+            alt="">
+        <div class="tinfo">
+            <h3 class="ttitle">NOELA RODRIGUES</h3>
+            <span class="tpost">TE <br>MECHANICAL</span>
+            <div class="tshare">
+                <a href="https://www.facebook.com/noela.rodrigues.5" class="fab fa-facebook-f"></a>
+                <a href="http://instagram.com/noela_r" class="fab fa-instagram"></a>
+                <a href="http://twitter.com/noelarodrigues" class="fab fa-twitter"></a>
+                <a href="https://www.linkedin.com/mwlite/in/noela-rodrigues-1ba3961b7" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+    </div>
+       <!-- 2 -->
+     
+   </div>
+   <div class="tbox-container">
+    <div class="btn from-top">Juniors</div>
+   <div class="tbox-container">
+
+       <!-- <h1 class="ot">Juniors</h1>  -->
+       <!-- 1 -->
+       <div class="tbox">
+           <img src="/img/Creatives_Ritika Rumde.jpg"
+               alt="">
+           <div class="tinfo">
+               <h3 class="ttitle">Ritika Rumde</h3>
+               <span class="tpost">SE <br>COMPUTER</span>
+               <div class="tshare">
+                   <a href="" class="fab fa-facebook-f"></a>
+                   <a href="https://www.instagram.com/invites/contact/?i=uy7w27eur77g&utm_content=lyzqnjg" class="fab fa-instagram"></a>
+                   <a href="" class="fab fa-twitter"></a>
+                   <a href="https://www.linkedin.com/in/ritika-rumde-a89492208" class="fab fa-linkedin"></a>
+               </div>
+           </div>
+       </div>
+       <!-- 2 -->
+       <div class="tbox">
+           <img src="/img/Creatives_Alisha Menezes.png"
+               alt="">
+           <div class="tinfo">
+               <h3 class="ttitle">Alisha Menezes</h3>
+               <span class="tpost">SE <br>MECHANICAL</span>
+               <div class="tshare">
+                   <a href="" class="fab fa-facebook-f"></a>
+                   <a href="https://www.instagram.com/this_budding_explorer/" class="fab fa-instagram"></a>
+                   <a href="" class="fab fa-twitter"></a>
+                   <a href="https://www.linkedin.com/in/alisha-menezes-1a768021b/" class="fab fa-linkedin"></a>
+               </div>
+           </div>
+       </div>
+
+       <!-- 3 -->
+       <div class="tbox">
+           <img src="/img/Creatives_ShalakaVengurlekar.JPG"
+               alt="">
+           <div class="tinfo">
+               <h3 class="ttitle">Shalaka Vengurlekar</h3>
+               <span class="tpost">SE ELECTRONICS AND COMPUTER SCIENCE</span>
+               <br>
+               <div class="tshare">
+                   <a href="" class="fab fa-facebook-f"></a>
+                   <a href="https://www.instagram.com/shalaka_vengurlekar/"class="fab fa-instagram"></a>
+                   <a href="" class="fab fa-twitter"></a>
+                   <a href="https://www.linkedin.com/in/shalakavengurlekar/" class="fab fa-linkedin"></a>
+               </div>
+           </div>
+       </div>
+       <!-- 1 -->
+       <div class="tbox">
+           <img src="/img/Spons_Yayati Nakhate.jpg"
+               alt="">
+           <div class="tinfo">
+               <h3 class="ttitle">Yayati Nakhate</h3>
+               <span class="tpost">SE <br>MECHANICAL</span>
+               <div class="tshare">
+                   <a href="" class="fab fa-facebook-f"></a>
+                   <a href="https://www.instagram.com/yayatinakhate/" class="fab fa-instagram"></a>
+                   <a href="" class="fab fa-twitter"></a>
+                   <a href="https://www.linkedin.com/in/yayati-nakhate-90814a208" class="fab fa-linkedin"></a>
+               </div>
+           </div>
+       </div>
+       <!-- 2 -->
+       <div class="tbox">
+           <img src="/img/Sponsorship_Arpita Khot.PNG"
+               alt="">
+           <div class="tinfo">
+               <h3 class="ttitle">Arpita Khot</h3>
+               <span class="tpost">SE ELECTRONICS AND COMPUTER SCIENCE </span>
+               <div class="tshare">
+                   <a href="" class="fab fa-facebook-f"></a>
+                   <a href="https://www.instagram.com/arpita__khot/" class="fab fa-instagram"></a>
+                   <a href="https://twitter.com/arpitakhott" class="fab fa-twitter"></a>
+                   <a href="https://www.linkedin.com/in/arpita-khot-185292212/" class="fab fa-linkedin"></a>
+               </div>
+           </div>
+       </div>
+
+      
+   </div>
+
+<!--  -->
+
+</body>
+
+</html>
