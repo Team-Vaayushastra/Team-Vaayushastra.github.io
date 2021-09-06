@@ -555,6 +555,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
 }
+
 .mbr-gallery-filter li a {
   border-radius: 100px !important;
 }
@@ -2977,16 +2978,16 @@ a {
 .cid-sHFr7ycmXP {
   padding-top: 5rem;
   padding-bottom: 0rem;
-  background-color: #437cb4;
+  background-color: #fff;
 }
 .cid-sHFr7ycmXP .mbr-section-title {
-  color: #ffffff;
+  color: #393e46;
 }
 .cid-sHFr7ycmXP .mbr-section-subtitle {
-  color: #ffffff;
+  color: #393e46;
 }
 .cid-sHFrqvqrk3 {
-  background-color: #437cb4;
+  background-color: #fff;
 }
 @media (max-width: 991px) {
   .cid-sHFrqvqrk3 .image-wrapper {
