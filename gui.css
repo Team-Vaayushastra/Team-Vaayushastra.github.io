@@ -7,7 +7,7 @@
 .header {
     min-height         : 100vh;
     width              : 100%;
-    background-image   : linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('img/photo-1517694712202-14dd9538aa97\ \(1\).jpg');
+    background-image   : linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('img/guibg.jpg');
     background-position: center;
     background-size    : cover;
     position           : relative;
