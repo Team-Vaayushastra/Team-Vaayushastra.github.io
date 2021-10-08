@@ -39,6 +39,13 @@
     }
 
 
+}@media(max-width:398px) {
+    b {
+        font-size: 9px;
+        font-weight: 10000;
+    }
+
+
 }
 
 /* what gui do */
