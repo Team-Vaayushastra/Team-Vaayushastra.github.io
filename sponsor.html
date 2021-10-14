@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="gui.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+    <title>Sponsers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .header {
+            min-height: 30vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://moerycompany.com/wp-content/uploads/sites/3/2020/04/Blog_2020-04-16-How-to-Launch-Your-Virtual-Event-Sponsorship-Program.png);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .text-box {
+            width: 90%;
+            color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .text-box h1 {
+            font-size: 62px;
+        }
+
+        .text-box p {
+            margin: 5px 0 200px;
+            font-size: 14px;
+            color: black;
+        }
+
+        @media(max-width:700px) {
+            .text-box h1 {
+                font-size: 20px;
+            }
+
+
+        }
+
+        /* what gui do */
+
+        .course {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .text-box h2 {
+            color: black;
+            margin-top: 5%;
+        }
+
+        .row p {
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .row {
+            margin-top: 5%;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+        }
+
+        .course-col {
+            flex-basis: 40%;
+            background: #144B68;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 0.5s;
+
+
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        .course-col:hover {
+            box-shadow: 0 0 20px 0px #144B68;
+        }
+
+        @media(max-width:700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        /* Three image containers (use 25% for four, and 50% for two, etc) */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+            transition: 0.5s;
+        }
+
+        .column:hover {
+            box-shadow: 0 0 20px 0px #144B68;
+        }
+
+        @media screen and (max-width: 500px) {
+            .column {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="text-box">
+            <!-- <h1>SPONSERS</h1> -->
+            <!-- <p>
+
+                Turn Your Design into a code
+            </p> -->
+
+        </div>
+    </section>
+    <!-- what gui do? -->
+    <section class="course">
+        <div class="text-box">
+            <h2>About our SPONSERS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nisi earum debitis quos asperiores fuga,
+                ullam facere culpa eius, at natus repellendus, dolores sequi beatae aperiam? Explicabo similique
+                accusantium fugit.</p>
+
+        </div>
+        <br>
+
+        <h1>Sponser's Role</h1>
+        <!-- <p>
+            The GUI is a type of User Interface that allows users to interact with
+        </p> -->
+        <div class="row">
+            <center>
+                <div class="course-col">
+
+                    <h2>Financial Assistance</h2>
+                    <br>
+                    <p>
+                        Finance is the lifeline of any project. We welcome sponsorship of any amount which will help
+                        this initiative to be successfully completed.
+                    </p>
+                </div>
+            </center>
+
+
+        </div>
+
+        <div class="row">
+            <center>
+                <div class="course-col">
+
+                    <h2>Technical Knowledge and Guidance</h2>
+                    <br>
+                    <p>
+                        The success of this project is dependent on the technical know-how which is often not available
+                        in academic circles. Your contribution on this front will be invaluable.
+                    </p>
+                </div>
+            </center>
+
+
+        </div>
+        <div class="row">
+            <center>
+                <div class="course-col">
+
+                    <h2>Parts Sponsorship</h2>
+                    <br>
+                    <p>
+                        The completion of the RC PLANE is dependent on the availability of special parts that are rarely
+                        available in the open market.
+                    </p>
+                </div>
+            </center>
+
+
+        </div>
+        <div class="row">
+            <center>
+                <div class="course-col">
+
+                    <h2>Industrial Contacts</h2>
+                    <br>
+                    <p>
+                        Sometimes, getting in touch with the right people is more important for taking the project
+                        ahead. Various machining processes and heat treatment processes require expertise and knowledge
+                        that may be rare.
+                    </p>
+                </div>
+            </center>
+
+        </div>
+
+
+    </section>
+    <section>
+        <center>
+            <div>
+                <h2 style="color:black">Sponsors Scheme</h2>
+            </div>
+        </center>
+
+        <div class="table-responsive">
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Contents</th>
+                        <th style="width: 16%;">Bronze</th>
+                        <th style="width: 16%;">Silver</th>
+                        <th style="width: 16%;">Gold</th>
+                        <th style="width: 16%;">Platinum</th>
+                        <th style="width: 16%;">Diamond</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th style="width: 20%;" scope="row" class="text-start">Amount</th>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th style="width: 20%;" scope="row" class="text-start">Social Publicity</th>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th style="width: 20%;" scope="row" class="text-start">Team Banner</th>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th style="width: 20%;" scope="row" class="text-start">Team Flyer</th>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th style="width: 20%;" scope="row" class="text-start">FRAGMAG -College Magazine</th>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th style="width: 20%;" scope="row" class="text-start">Merchandise</th>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th style="width: 20%;" scope="row" class="text-start">Logo on Aircraft</th>
+                        <!-- s -->
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+                </table>
+                </div>
+    </section>
+
+    <section>
+        <hr class="hr-blue">
+    </section>
+    <br>
+    <section >
+        <div class="container">
+            <div class="row text-center">
+                <div class="col section-heading">
+                 <span> <img src="flight final.png" style="width: 40px;height: 40px;"> </span><span><h1>Why Sponsor Vaayushastra? </h1> </span> <span><img src="flight final.png" style="width: 40px;height: 40px;"></span>
+                </div>
+            </div>
+            <div class="row text-left">
+                <div class="col font-rw font-1_1">
+                    <h3><i class="fas fa-fighter-jet"></i> International Exposure</h3>
+                    <p style="padding-left: 1.5rem; color: black;">Increasing exposure of the company and its products among
+                        participants and others attending
+                        the program.</p>
+                    <h3><i class="fas fa-fighter-jet"></i> Marketing Campaign</h3>
+                    <p style="padding-left: 1.5rem; color: black;">The team's website will mention the company's background and
+                        products manufactured. The
+                        company logo will gain visibility displayed on team banner, brochure and also on the uniform
+                        worn by the team on ground , thereby gaining the company cost effective publicity.</p>
+                    <h3><i class="fas fa-fighter-jet"></i> Product acceptability</h3>
+                    <p style="padding-left: 1.5rem; color: black;">Gain product acceptance among current as well as future potential
+                        customers globally.</p>
+                    <h3><i class="fas fa-fighter-jet"></i> Product Testing</h3>
+                    <p style="padding-left: 1.5rem; color: black;">The company's products will in effect be tested and demonstrated on
+                        the ground.</p>
+                    <h3><i class="fas fa-fighter-jet"></i> Social Responsibility</h3>
+                    <p style="padding-left: 1.5rem; color: black;">The company would be investing in developing future technical
+                        talent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery5 mbr-gallery cid-sIii6ZOtRG" id="gallery5-t">
+    
+
+    
+
+    <div class="container">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center m-0 display-2">OUR PREVIOUS SPONSORS</h3>
+            
+        </div>
+        <div class="row mbr-gallery mt-4">
+            
+            
+            
+            <div class="col-12 col-md-6 col-lg-3 item gallery-image active">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/r-1-1200x828.png" alt="Img" data-slide-to="0" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/features2-1600x1000.png" alt="" data-slide-to="1" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/g-400x400.png" alt="" data-slide-to="2" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/volkswagen-small-vector-logo-400x400.png" alt="" data-slide-to="3" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/ansys-logo-792x256.png" alt="" data-slide-to="4" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/vodafone-logo-3840x2160.png" alt="" data-slide-to="5" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/canara-bank-logo-506x134.png" alt="" data-slide-to="6" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="moda" data-target="#sIj4iqbuhI-modal">
+                    <img class="w-100" src="asset/images/download-351x144.png" alt="" data-slide-to="7" data-target="#lb-sIj4iqbuhI">
+                    <!-- <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div> -->
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="sIj4iqbuhI-modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="carousel slide" id="lb-sIj4iqbuhI" data-interval="5000">
+                            <div class="carousel-inner">
+                                
+                                
+                                
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="asset/images/r-1-1200x828.png" alt="">
+                                </div><div class="carousel-item">
+                                    <img class="d-block w-100" src="asset/images/features2-1600x1000.png" alt="">
+                                </div><div class="carousel-item">
+                                    <img class="d-block w-100" src="asset/images/g-400x400.png" alt="">
+                                </div><div class="carousel-item">
+                                    <img class="d-block w-100" src="asset/images/volkswagen-small-vector-logo-400x400.png" alt="">
+                                </div><div class="carousel-item">
+                                    <img class="d-block w-100" src="asset/images/ansys-logo-792x256.png" alt="">
+                                </div><div class="carousel-item">
+                                    <img class="d-block w-100" src="asset/images/vodafone-logo-3840x2160.png" alt="">
+                                </div><div class="carousel-item">
+                                    <img class="d-block w-100" src="asset/images/canara-bank-logo-506x134.png" alt="">
+                                </div><div class="carousel-item">
+                                    <img class="d-block w-100" src="asset/images/download-351x144.png" alt="">
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-slide-to="0" class="active" data-target="#lb-sIj4iqbuhI"></li><li data-slide-to="1" class="" data-target="#lb-sIj4iqbuhI"></li><li data-slide-to="2" class="" data-target="#lb-sIj4iqbuhI"></li><li data-slide-to="3" class="" data-target="#lb-sIj4iqbuhI"></li><li data-slide-to="4" class="" data-target="#lb-sIj4iqbuhI"></li><li data-slide-to="5" class="" data-target="#lb-sIj4iqbuhI"></li><li data-slide-to="6" class="" data-target="#lb-sIj4iqbuhI"></li><li data-slide-to="7" class="" data-target="#lb-sIj4iqbuhI"></li>
+                                
+                                
+                                
+                            </ol>
+                            <a role="button" href="" class="close" data-dismiss="modal" aria-label="Close">
+                            </a>
+                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" href="#lb-sIj4iqbuhI">
+                                <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" href="#lb-sIj4iqbuhI">
+                                <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info3 cid-sIil1VFRHy" id="info3-v">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-10">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        
+                        
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-5" href="https://www.ketto.org/fundraiser/whats-better-than-helping-youth-build-plane-your-support-will-help-us-fly" target="_blank">SPONSOR US</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer7 cid-sIeG2B76DH" once="footers" id="footer7-o">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="col-12">
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                    © Copyright 2021 TeamVaayushastra - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/e" style="color:#aaa;"></a></p></section><script src="asset/web/assets/jquery/jquery.min.js"></script>  <script src="asset/popper/popper.min.js"></script>  <script src="asset/tether/tether.min.js"></script>  <script src="asset/bootstrap/js/bootstrap.min.js"></script>  <script src="asset/smoothscroll/smooth-scroll.js"></script>  <script src="asset/dropdown/js/nav-dropdown.js"></script>  <script src="asset/dropdown/js/navbar-dropdown.js"></script>  <script src="asset/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="asset/theme/js/script.js"></script>  
+</body>
+
+</html>
