@@ -41,9 +41,6 @@
     bottom    : 50px;
 }
 
-.tbox-container .tbox:hover .tinfo {
-    bottom: 165px;
-}
 
 .ttitle {
     padding       : 0px 10px;
