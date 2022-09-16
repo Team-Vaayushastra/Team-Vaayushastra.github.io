@@ -1,757 +1,185 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="description" content="Team Vaayushastra Website 2021 FRCRCE CRCE.">
-    <meta name="og:title" property="og:title" content="Team Vaayushastra 2021">
-    <meta name="twitter:card" content="Team Vaayushastra 2021">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.3.5, mobirise.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <meta name="google-site-verification" content="m3TmBm_tDFhe_gsZQrM5wohZ-ajPecLHASnof6zd6cc" />
+  <title>Team Vaayushastra 2023</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <link rel="shortcut icon" href="assets/images/vlogo-1.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <title>Team Vaayushastra 2021</title>
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/tether/tether.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster:400&display=swap" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:400&display=swap">
-    </noscript>
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Signika:300,400,500,600,700&display=swap"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika:300,400,500,600,700&display=swap">
-    </noscript>
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-    <link rel="stylesheet" href="index.css" type="text/css">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet" href="sponsor.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        #kam {
-            color: #131313;
-            /* text-shadow: 0px 3px 0px #494949,0px 14px 10px rgba(0,0,0,0.15),0px 24px 2px rgba(0,0,0,0.1),0px 34px 30px rgba(0,0,0,0.1); */
-            text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1), 10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
-        }
-
-        #hide-page {
-            z-index: 10000;
-        }
-
-        .preload {
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            background-color: #A9EBF1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: opacity 0.5s ease 3s;
-        }
-
-        .preload img {
-            width: auto;
-        }
-
-        .preload h3 {
-            position: absolute;
-            top: 75%;
-            transform: translateY(-75%);
-            color: white;
-            font-size: 30px;
-            font-family: sans-serif;
-        }
-
-        .preload-finish {
-            opacity: 0;
-            pointer-events: none;
-        }
-
-        .plane {
-            height: 170px;
-            animation: airplane 1s ease infinite alternate;
-        }
-
-        .cloud1,
-        .cloud2,
-        .cloud3 {
-            height: 100px;
-            position: absolute;
-            z-index: -1;
-            right: 0%;
-        }
-
-        .cloud1 {
-            top: 25%;
-            transform: translate(100%, -25%);
-            animation: clouds 3s ease infinite;
-        }
-
-        .cloud2 {
-            top: 50%;
-            transform: translate(100%, -50%);
-            animation: clouds 3s ease infinite 2s;
-        }
-
-        .cloud3 {
-            top: 75%;
-            transform: translate(100%, -75%);
-            animation: clouds 3s ease infinite 1.5s;
-        }
-
-        @keyframes airplane {
-            from {
-                transform: translateY(0px);
-            }
-
-            to {
-                transform: translateY(50px);
-            }
-        }
-
-        @keyframes clouds {
-            from {
-                right: 0%;
-            }
-
-            to {
-                right: 130%;
-            }
-        }
-
-        @media screen and (max-width:500px) {
-            .plane {
-                height: 120px;
-                animation: airplane 1s ease infinite alternate;
-            }
-
-            .preload h3 {
-                font-size: 20px;
-            }
-        }
-
-        @media screen and (height:823px),
-        screen and (height:812px),
-        screen and (height:817px),
-        screen and (height:720px) {
-            .plane {
-                height: 120px;
-                animation: airplane 1s ease infinite alternate;
-            }
-
-            .preload h3 {
-                font-size: 20px;
-                top: 65%;
-            }
-        }
-
-        @media screen and (height:1024px) {
-            .plane {
-                justify-content: flex-end;
-                align-items: flex-end;
-                height: 80px;
-                margin-bottom: 50%;
-                animation: airplane 1s ease infinite alternate;
-            }
-
-            .preload h3 {
-                font-size: 20px;
-                top: 50%;
-            }
-        }
-
-        @media screen and (height:1366px) {
-            .plane {
-                justify-content: flex-end;
-                align-items: flex-end;
-                height: 80px;
-                margin-bottom: 70%;
-                animation: airplane 1s ease infinite alternate;
-            }
-
-            .preload h3 {
-                font-size: 20px;
-                top: 35%;
-            }
-        }
-    </style>
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!--     <a target="_blank" href="https://www.ketto.org/fundraiser/whats-better-than-helping-youth-build-plane-your-support-will-help-us-fly"> -->
-    <button class="spons" data-toggle="modal" data-target="#exampleModal">
-        <img
-            src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-dollar-banking-and-finance-kiranshastry-lineal-color-kiranshastry-2.png" />
-        </img>
-    </button>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
 
+      <div class="logo">
+        <h1>
+          <img src="assets/img/logo.png" alt="logo">
+          <a href="index.html"><span>Team Vaayushstra</span></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <!-- Add image inside the body of modal -->
-                <div class="modal-body">
-                    <img id="image" src="/img/upi.png" alt="Click on button" />
-                </div>
-
-                <div class="modal-header">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                        X
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!--     </a> -->
-    <div class="preload" id="hide-page">
-        <!-- <img src="https://cdn.dribbble.com/users/1677926/screenshots/6749058/plane2.gif" alt="" srcset=""> -->
-        <!-- <img src="img/Final_3.gif" alt="" srcset=""> -->
-        <img src="img/crisscross_plane.gif" alt="" srcset="">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#">Achievements</a></li>
+          <li class="dropdown"><a href="#"><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Avionics</a></li>
+              <li><a href="#">Media and Marketting</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#">Support</a></li>
+          <li><a class="nav-link scrollto" href="#">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
     </div>
+  </header><!-- End Header -->
 
-    <section class="menu menu2 cid-sHEFqUQzSU" once="menu" id="menu2-0">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
 
-        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-            <div class="container-fluid">
-                <div class="navbar-brand">
-                    <span class="navbar-logo">
-                        <a href="index.html">
-                            <img src="assets/images/vlogo-1.svg" alt="Team Vaayushastra" style="height: 3.6rem;">
-                        </a>
-                    </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white text-primary display-5"
-                            href="index.html">Team Vaayushastra</a></span>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                        <li class="nav-item"><a class="nav-link link text-white text-primary display-4"
-                                href="flagship.html">ACHIEVEMENTS</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4"
-                                href="#" data-toggle="dropdown-submenu" aria-expanded="false">DEPARTMENTS</a>
-                            <div class="dropdown-menu"><a class="dropdown-item text-white display-4"
-                                    href="designdepartment.html">DESIGN AND MODELLING</a><a
-                                    class="dropdown-item text-white display-4" href="gui.html">GUI</a><a
-                                    class="dropdown-item text-white display-4" href="das1.html">DAS</a><a
-                                    class="dropdown-item text-white display-4" href="spons2.html">MARKETING AND
-                                    MEDIA</a></div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link link text-white text-primary display-4"
-                                href="gallery.html">GALLERY</a></li>
-                        <li class="nav-item"><a class="nav-link link text-white text-primary display-4"
-                                href="page3.html" aria-expanded="false">SUPPORT US</a></li>
-                        <li class="nav-item"><a class="nav-link link text-white text-primary display-4"
-                                href="page2.html">CONTACT US</a></li>
-                    </ul>
-
-
-                </div>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Dream  Build  Fly</h1>
+            <h2>The aerodesign team of Fr.CRCE which builds 10 feet long flogship RC aircrafts from scratch and participates in SAE Aerodesign which is held in the US annually</h2>
+            <div class="text-center text-lg-start">
+              <a href="#" class="btn-get-started scrollto">KNOW MORE</a>
             </div>
-        </nav>
-    </section>
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/webb.gif" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
 
-    <section class="header6 cid-sHEPc87kv6 mbr-fullscreen" id="header6-9">
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
 
 
 
+      </div>
+    </section><!-- End About Section -->
 
+  </main><!-- End #main -->
 
-        <div class="align-center container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10">
-                    <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1">&nbsp; &nbsp; &nbsp;</h1>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
-                    <p class="mbr-text mbr-white mbr-fonts-style display-1" id="kam"><br><br><br><br><br><span
-                            style="color: #1166EE;">Dream</span><span style="color: #ff8e59;">..</span><span
-                            style="color: #EEB011;">Build</span><span style="color: #58bfff;">..</span><span
-                            style="color: #FF5555;">Fly</span><span style="color: #8003D7;">!</span></p>
-
-                </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Team Vaayushastra</h3>
+              <p class="pb-3"><em>Dream, Build, Fly.</em></p>
+              <p>
+                Mumbai <br>
+                Maharashtra, INDIA<br><br>
+                <strong>Phone:</strong> +91 11223 34455<br>
+                <strong>Email:</strong> xyz@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
             </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Achievements</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Departments</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Support</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+            </ul>
+          </div>
         </div>
-    </section>
-
-    <section class="features1 cid-sHEJPLSpSc" id="features1-5">
-
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-9">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>ABOUT US</strong>
-                    </h3>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="card col-12 col-md-6 col-lg-3">
-                    <div class="card-wrapper">
-                        <div class="card-box align-center">
-
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-12 col-md-6 col-lg-3">
-                    <div class="card-wrapper">
-                        <div class="card-box align-center">
-
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-12 col-md-6 col-lg-3">
-                    <div class="card-wrapper">
-                        <div class="card-box align-center">
-
-
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section class="slider2 cid-sHELcAk7NL" id="slider2-6">
-
-
-
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="carousel slide carousel-fade" id="sIcMTVMa5p" data-ride="carousel" data-interval="2000">
-
-                        <ol class="carousel-indicators">
-                            <li data-slide-to="0" class="active" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="1" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="2" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="3" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="4" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="5" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="6" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="7" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="8" class="" data-target="#sIcMTVMa5p"></li>
-                            <li data-slide-to="9" class="" data-target="#sIcMTVMa5p"></li>
-
-
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item slider-image item active">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.32-am-2.jpeg"
-                                        data-slide-to="0">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.30-am.jpeg"
-                                        data-slide-to="1">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.32-am-1.jpeg"
-                                        data-slide-to="2">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.31-am-2.jpeg"
-                                        data-slide-to="3">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.31-am.jpeg"
-                                        data-slide-to="4">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.31-am-1.jpeg"
-                                        data-slide-to="5">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.32-am.jpeg"
-                                        data-slide-to="6">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.33-am-2.jpeg"
-                                        data-slide-to="7">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.33-am.jpeg"
-                                        data-slide-to="8">
-
-                                </div>
-                            </div>
-                            <div class="carousel-item slider-image item">
-                                <div class="item-wrapper">
-                                    <img class="d-block w-100"
-                                        src="assets/images/whatsapp-image-2021-09-06-at-10.32.33-am-1.jpeg"
-                                        data-slide-to="9">
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <a class="carousel-control carousel-control-prev" role="button" data-slide="prev"
-                            href="#sIcMTVMa5p">
-                            <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control carousel-control-next" role="button" data-slide="next"
-                            href="#sIcMTVMa5p">
-                            <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content5 cid-sHELCaltGa" id="content5-7">
-
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 col-lg-10">
-
-
-                    <p class="mbr-text mbr-fonts-style display-7">Team Vaayushastra was established in the year 2012 to
-                        represent Fr. Conceicao Rodrigues College of Engineering in the SAE Aero Design Competition.
-                        Since the year 2013, we have participated annually in the advanced class of the SAE Aero Design
-                        Competition, held in the United States, 9 times. We have been one of the most consistent teams
-                        by finishing in the worldwide top 10 rankings, 7 times. The team is formed entirely of
-                        undergraduate students from the college who have the aptitude and interest conducive to the
-                        competition. Currently, the team has 30 members coming from all 4 departments of the college.
-                        For efficiency, the team is further divided into 4 departments that work in unison towards a
-                        common goal.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="header14 cid-sHET7dtHbA" id="header14-a">
-
-
-
-        <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(67, 124, 180);"></div>
-
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-12 col-md-4 image-wrapper">
-                    <!-- <img src="assets/images/bhushan.jpeg" alt="Team Vaayushastra"> -->
-                    <img src="https://cdn.dribbble.com/users/198356/screenshots/2116930/media/28a9efd3a871767cf707d335c4db55ac.gif"
-                        alt="Team Vaayushastra">
-                </div>
-                <div class="col-12 col-md">
-                    <div class="text-wrapper">
-                        <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2">
-                            <p><strong>About SAE Competition</strong></p>
-                        </h1>
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            The SAE Aero Design competition is intended to provide undergraduate and graduate
-                            engineering students with a real-life engineering challenge .The competition has been
-                            designed to provide exposure to the kinds of situations that engineers face in their
-                            real-life work environment.</p>
-                        <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4"
-                                href="https://heyzine.com/flip-book/8dd4bb4027.html" target="_blank">SAE Rulebook
-                                22-23</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="video1 cid-sHEYw7bP67" id="video1-d">
-
-
-        <div class="align-center container-fluid">
-            <!-- <div class="mbr-section-head">
-                <h4 class="mbr-section-title mbr-fonts-style mb-0 display-2">
-                    <strong>FACULTY ADVISORS</strong>
-                </h4>
-
-            </div> -->
-
-            <div class="tbox-container">
-                <div class="bt from-to"><b>FACULTY<br>ADVISORS</b></div>
-                <!-- 1 -->
-                <div class="tbox">
-                    <img src="https://mkaustubh.github.io/TEAM-VAAYU-CRCE/Dipali-Bhise.jpg"
-                        class="rounded mx-auto d-block" alt="...." style="max-width: 400px"></a>
-                    alt="">
-                    <div class="tinfo">
-                        <span class="tpost">Prof. Dipali Bhise</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- CHANGES FROM HEREEEEEEEEEEEEEEEEEEEE -->
-
-    <!-- <div class="card text-center">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">
-            <img src="https://mkaustubh.github.io/TEAM-VAAYU-CRCE/Dipali-Bhise.jpg" class="rounded mx-auto d-block" alt="..." style="max-width: 600px"></h5>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div> -->
-
-    <section class="video1 cid-sHEYw7bP67" id="video1-d">
-
-
-        <div class="align-center container-fluid">
-            <div class="mbr-section-head">
-                <h4 class="mbr-section-title mbr-fonts-style mb-0 display-2">
-                    <strong>TEST FLIGHTS</strong>
-                </h4>
-
-            </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-12 col-lg-11">
-                    <div class="box">
-                        <div class="mbr-media show-modal align-center" data-modal=".modalWindow">
-                            <a href="page4.html"><img src="assets/images/1.jpg" alt="Team Vaayushastra"></a>
-                            <div class="icon-wrap">
-                                <a class="text-primary" href="page4.html"><span
-                                        class="mbr-iconfont socicon-youtube socicon"
-                                        style="color: rgb(159, 219, 248); fill: rgb(159, 219, 248);"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="modalWindow" style="display: none;">
-                <div class="modalWindow-container">
-                    <div class="modalWindow-video-container">
-                        <div class="modalWindow-video">
-                            <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1"></iframe>
-                        </div>
-                        <a class="close" role="button" data-dismiss="modal">
-                            <span aria-hidden="true" class="mbr-iconfont mobi-mbri-close mobi-mbri closeModal"></span>
-                            <span class="sr-only">Close</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="footer4 cid-sHFdHcxSD6" once="footers" id="footer4-x">
-
-
-
-        <div class="container">
-            <div class="row mbr-white">
-                <div class="col-6 col-lg-3">
-                    <div class="media-wrap col-md-8 col-12">
-                        <a href="/">
-                            <img src="assets/images/vlogo-1.svg" alt="Team Vaayushastra">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5"><strong>Team Vaayushastra</strong>
-                    </h5>
-                    <p class="mbr-text mbr-fonts-style mb-4 display-4"><a href="mailto:Noela.9015@gmail.com"
-                            class="text-primary">Marketing Head: Noela.9015@gmail.com</a>
-                        <br><a href="mailto:vaayushastracrce@gmail.com"
-                            class="text-primary">vaayushastracrce@gmail.com</a>
-                    </p>
-
-
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>About The SAE
-                            Competition</strong></h5>
-                    <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap"><a href="https://heyzine.com/flip-book/8dd4bb4027.html"
-                                class="text-primary" target="_blank">SAE Rulebook 22-23</a></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                        <strong>Support</strong>
-                    </h5>
-                    <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap"><a href="page2.html" class="text-primary">Contact Us</a>
-                        </li>
-                        <li class="mbr-text item-wrap"><a href="page3.html" class="text-primary">Sponsor Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-12 mt-4">
-                    <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7">
-                        © Copyright 2021 TeamVaayushastra - All Rights Reserved
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section
-        style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
-        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/a"
-                style="color:#aaa;"></a></p>
-    </section>
-    <script src="assets/web/assets/jquery/jquery.min.js"></script>
-    <script src="assets/popper/popper.min.js"></script>
-    <script src="assets/tether/tether.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/smoothscroll/smooth-scroll.js"></script>
-    <script src="assets/dropdown/js/nav-dropdown.js"></script>
-    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-    <script src="assets/playervimeo/vimeo_player.js"></script>
-    <script src="assets/theme/js/script.js"></script>
-
-
-
-
-    <!-- Adding scripts to use bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script>
-        window.addEventListener("load", () => {
-            const preload = document.querySelector(".preload");
-            preload.classList.add("preload-finish");
-        });
-
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-
-
-    <!-- <script
-        type="text/javascript">!function () { var e = { "buttons": [{ "type": "link", "token": "https://www.ketto.org/fundraiser/whats-better-than-helping-youth-build-plane-your-support-will-help-us-fly" }], "color": "#F0645A", "position": "right", "bottomSpacing": "5", "callToActionMessage": "Sponsor Us", "displayOn": "everywhere", "lang": "en" }, t = document.location.protocol + "//bothelp.io", o = document.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = t + "/widget-folder/widget-page.js", o.onload = function () { new BhWidgetPage.init(e) }; var n = document.getElementsByTagName("scrip")[0]; n.parentNode.insertBefore(o, n) }();</script> -->
-
-    <!-- <div class="bh-widget-page-wrapper" style="position: fixed; z-index: 9999; bottom: 5px; right: 16px;">
-        <div class="bh-widget-page bh-widget-page--right">
-            <div class="bh-widget-page__content"><a
-                    href="https://www.ketto.org/fundraiser/whats-better-than-helping-youth-build-plane-your-support-will-help-us-fly"
-                    target="_blank" class="bh-w-button--round bh-w-button bh-w-button-link bh-widget-page__button-main"
-                    data-type="link"
-                    data-token="https://www.ketto.org/fundraiser/whats-better-than-helping-youth-build-plane-your-support-will-help-us-fly"><img
-                        class="bh-w-button__icon"
-                        src="data:image/svg+xml,%3csvg width='20' height='10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1.9 5c0-1.71 1.39-3.1 3.1-3.1h4V0H5C2.24 0 0 2.24 0 5s2.24 5 5 5h4V8.1H5C3.29 8.1 1.9 6.71 1.9 5zM6 6h8V4H6v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1 0 1.71-1.39 3.1-3.1 3.1h-4V10h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z' fill='white'/%3e%3c/svg%3e"
-                        alt="button-icon"></a>
-                <div class="bh-widget-page__call-to-action bh-hidden">
-                    <div class="bh-w-call-to-action-container"><span class="bh-w-call-to-action"
-                            data-action="__call-action__" title="Sponsor Us">Sponsor Us</span></div>
-                </div>
-            </div><a class="bh-w-link bh-widget-page__link"
-                href="https://bothelp.io/?utm_source=free-chatbtn&amp;utm_medium=plg&amp;utm_campaign=powered+by&amp;utm_content=eng"
-                target="_blank" rel="noopener"></a>
-        </div>
-    </div> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Vaayushastra</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="http://127.0.0.1:5500/index.html">Team Vaayushastra</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
