@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/vlogo-1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.3.5, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/vlogo-1.svg" type="image/x-icon">
+    <meta name="description" content="">
+
+
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster:400&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:400&display=swap">
+    </noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Signika:300,400,500,600,700&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika:300,400,500,600,700&display=swap">
+    </noscript>
+    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link href="index.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <title>Design and Modelling</title>
+    <style>
+        .ccontainer {
+            position: relative;
+            min-height: 60vh;
+            background: white;
+            margin-top: 20px;
+        }
+
+        .ccontainer .cimage-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .ccontainer .cimage-container .cimage {
+            height: 250px;
+            width: 350px;
+            border: 10px solid white;
+            box-shadow: 0 5px 15px black;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .ccontainer .cimage-container .cimage img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: .2s linear;
+        }
+
+        .ccontainer .cimage-container .cimage:hover img {
+            transform: scale(1.1);
+        }
+
+        .ccontainer .cpopup-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .9);
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            display: none;
+        }
+
+        .ccontainer .cpopup-image span {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-size: 40px;
+            font-weight: bolder;
+            color: #fff;
+            cursor: pointer;
+            z-index: 100;
+        }
+
+        .ccontainer .cpopup-image img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 5px solid #fff;
+            width: 750px;
+            object-fit: cover;
+        }
+
+        @media (max-width:768px) {
+            .ccontainer .cpopup-image img {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <h1>
+                    <!-- <img src="assets/img/logo.png" alt="logo"> -->
+                    <a href="index.html"><span>Team Vaayushstra</span></a>
+                </h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="flagship.html">Achievements</a></li>
+                    <li class="dropdown"><a href="#"><span>Departments</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="designdepartment.html">Design</a></li>
+                            <li><a href="gui.html">Avionics</a></li>
+                            <li><a href="das1.html">DAS</a></li>
+                            <li><a href="spons2.html">Media and Marketting</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="page3.html">Support</a></li>
+                    <li><a class="nav-link scrollto" href="page2.html">Contact Us</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+
+    <section class="header">
+        <div class="text-box">
+            <h1>DESIGN AND MODELLING DEPARTMENT</h1>
+            <p>
+
+                "Design is how it works."- Steve Jobs
+            </p>
+
+        </div>
+    </section>
+    <!-- what gui do? -->
+    <section class="course">
+        <h1>WHAT WE DO</h1>
+        <!-- <p>
+            The GUI is a type of User Interface that allows users to interact with
+        </p> -->
+        <div class="row">
+            <div class="course-col">
+
+                <p>This department handles the Designing, Modelling, Simulation and Fabrication of the aircraft.</p>
+            </div>
+            <div class="course-col">
+
+                <p>Members of the team begin by first conducting an extensive research, then we use various 3D modelling
+                    softwares for designing, analysing and simulation.</p>
+            </div>
+            <div class="course-col">
+
+                <p>Finally, we fabricate the aircraft which includes various processes such as 3D printing, laser
+                    cutting, foam cutting, working with composite materials, etc.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="ccontainer">
+
+        <div class="cimage-container">
+            <div class="cimage"><img src="img/Design 1.png" alt=""></div>
+            <div class="cimage"><img src="img/Design 2.jpg" alt=""></div>
+            <div class="cimage"><img src="img/Design 3.png" alt=""></div>
+        </div>
+        <div class="cpopup-image">
+            <span>&times;</span>
+            <img src="img/photo-1517694712202-14dd9538aa97 (1).jpg" alt="">
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.cimage-container img').forEach(cimage => {
+            cimage.onclick = () => {
+                document.querySelector('.cpopup-image').style.display = 'block';
+                document.querySelector('.cpopup-image img').src = cimage.getAttribute('src');
+            }
+        });
+        document.querySelector('.cpopup-image span').onclick = () => {
+            document.querySelector('.cpopup-image').style.display = 'none';
+        }
+    </script>
+
+
+    <!-- our team -->
+
+
+    <h1 class="ot">MEET THE DESIGN AND MODELLING MEMBERS</h1>
+    <div class="tbox-container">
+        <div class="btn from-top">
+            </br>Seniors
+        </div>
+
+        <div class="tbox-container">
+
+            <!-- 1 -->
+            <div class="tbox">
+                <img src="img/peter.png" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Peter D'souza</h3>
+                    <span class="tpost">TE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <!-- <a href="" class="fab fa-facebook-f"></a> -->
+                        <a href="https://www.instagram.com/peter_p2_prdd" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/peter-d-souza-08827321b" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tbox">
+                <img src="img/chiraj.jpeg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Chirag Jadhav</h3>
+                    <span class="tpost">TE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/chirag_s._jadhav/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/chirag-jadhav-bb728221b" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+
+            <!-- 2 -->
+            <div class="tbox">
+                <img src="img/ssandra.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Sandra Thayyil</h3>
+                    <span class="tpost">TE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/sandrarely03/" class="fab fa-instagram"></a>
+                        <a href="https://twitter.com/sandrarely03" class="fab fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/sandra-thayyil-919347217/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="btn from-top"> </div> -->
+            <!-- 1 -->
+            <div class="tbox">
+                <img src="img/asiya.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Asiya Shaikh</h3>
+                    <span class="tpost">TE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/asiyashaikh.4/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/asiya-shaikh-a0007b218/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="tbox">
+                <img src="img/sanat.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Sanat Pednekar</h3>
+                    <span class="tpost">TE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.facebook.com/sanat.pednekar" class="fab fa-facebook-f"></a>
+                        <a href="https://www.instagram.com/sanatpednekar/" class="fab fa-instagram"></a>
+                        <a href="https://mobile.twitter.com/SanatPednekar" class="fab fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/sanat-pednekar-a881351b7/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="tbox">
+                <img src="img/Design&modelling_Neel Mankame.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Neel Mankame</h3>
+                    <span class="tpost">TE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.facebook.com/palkaton" class="fab fa-facebook-f"></a>
+                        <a href="https://www.instagram.com/neel.02" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/neel-mankame-040642208" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="tbox-container">
+        <div class="btn from-top">Juniors</div>
+
+        <div class="tbox-container">
+
+            <!-- <h1 class="ot">Juniors</h1>  -->
+            <!-- 1 -->
+
+            <!-- 2 -->
+            <div class="tbox">
+                <img src="img/nathan.jpeg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Nathan Pereira</h3>
+                    <!-- <span class="tpost">SE <br>MECHANICAL</span> -->
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/nathaannnn__" class="fab fa-instagram"></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+
+            <!-- 1 -->
+            <div class="tbox">
+                <img src="img/arya.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Arya Anant Singarwadi
+                    </h3>
+                    <span class="tpost">SE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/singarwadi333/
+" class="fab fa-instagram">
+                        </a>
+                        <a href="http://www.linkedin.com/in/Arya-Singarwadi" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="tbox">
+                <img src="img/harshwardhan.jpeg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Harshvardhan Trivedi
+                    </h3>
+                    <!-- <span class="tpost">SE <br>MECHANICAL</span> -->
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/harshtrivedi___
+" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/neel-mankame-040642208" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="tbox">
+                <img src="img/janvhi.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Janhavi Sachin Shinde
+                    </h3>
+                    <span class="tpost">SE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/janhavi._16
+                        " class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/shanikumar-ahirwar-274972218" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="tbox">
+                <img src="img/piyush.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Piyush Santosh Jogale
+
+                    </h3>
+                    <!-- <span class="tpost">SE <br>ELECTRONICS AND COMPUTER SCIENCE</span> -->
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/piyushjogale17
+janhavi._16
+            " class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="tbox">
+                <img src="img/jr.atharva.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Atharva Ranjit Patil
+                    </h3>
+                    <span class="tpost">SE <br>AI & DATA SCIENCE</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/2nd_ranger
+                        " class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="tbox">
+                <img src="img/gajanan.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Gajanan Birajdar
+                    </h3>
+                    <span class="tpost">SE <br>MECHANICAL</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/Gajanan Birajdar
+                        " class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="tbox">
+                <img src="img/shahaan.jpg" alt="">
+                <div class="tinfo">
+                    <h3 class="ttitle">Shahaan Tufail
+                    </h3>
+                    <span class="tpost">SE <br>ELECTRONICS AND COMPUTER SCIENCE</span>
+                    <div class="tshare">
+                        <a href="https://www.instagram.com/card.shuffler.19 
+                        " class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <section
+            style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
+            <p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/e"
+                    style="color:#aaa;"></a></p>
+        </section>
+        <script src="assets/web/assets/jquery/jquery.min.js"></script>
+        <script src="assets/popper/popper.min.js"></script>
+        <script src="assets/tether/tether.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/smoothscroll/smooth-scroll.js"></script>
+        <script src="assets/dropdown/js/nav-dropdown.js"></script>
+        <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+        <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+        <script src="assets/theme/js/script.js"></script>
+
+</body>
+
+</html>
+
+</html>
