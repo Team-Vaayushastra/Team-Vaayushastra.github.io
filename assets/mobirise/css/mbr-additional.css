@@ -3433,9 +3433,3 @@ a {
   background-color: #232323;
   overflow: hidden;
 }
-
-/* made the text visible while hovering of dropdown items */
-.dropdown-menu .dropdown-item:hover{
-  background: #FFF !important;
-  color: #111111 !important;
-}
